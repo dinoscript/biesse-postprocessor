@@ -1,0 +1,411 @@
+{
+   "header": {
+      "$ACADVER": "AC1006"
+   },
+   "entities": [
+      {
+         "type": "CIRCLE",
+         "handle": "002B",
+         "layer": "BV_14",
+         "center": {
+            "x": 680,
+            "y": 61,
+            "z": 0
+         },
+         "radius": 7.5
+      },
+      {
+         "type": "CIRCLE",
+         "handle": "002C",
+         "layer": "BV_14",
+         "center": {
+            "x": 680,
+            "y": 349,
+            "z": 0
+         },
+         "radius": 7.5
+      },
+      {
+         "type": "CIRCLE",
+         "handle": "002D",
+         "layer": "BV_14",
+         "center": {
+            "x": 34,
+            "y": 61,
+            "z": 0
+         },
+         "radius": 7.5
+      },
+      {
+         "type": "CIRCLE",
+         "handle": "002E",
+         "layer": "BV_14",
+         "center": {
+            "x": 34,
+            "y": 349,
+            "z": 0
+         },
+         "radius": 7.5
+      },
+      {
+         "type": "CIRCLE",
+         "handle": "002F",
+         "layer": "BV_12",
+         "center": {
+            "x": 533,
+            "y": 19,
+            "z": 0
+         },
+         "radius": 2.5
+      },
+      {
+         "type": "CIRCLE",
+         "handle": "0030",
+         "layer": "BV_12",
+         "center": {
+            "x": 181,
+            "y": 19,
+            "z": 0
+         },
+         "radius": 2.5
+      },
+      {
+         "type": "CIRCLE",
+         "handle": "0031",
+         "layer": "BV_13",
+         "center": {
+            "x": 501,
+            "y": 19,
+            "z": 0
+         },
+         "radius": 4
+      },
+      {
+         "type": "CIRCLE",
+         "handle": "0032",
+         "layer": "BV_13",
+         "center": {
+            "x": 213,
+            "y": 19,
+            "z": 0
+         },
+         "radius": 4
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 0,
+               "y": 321,
+               "z": 0
+            },
+            {
+               "x": 25,
+               "y": 321,
+               "z": 0
+            }
+         ],
+         "handle": "0033",
+         "layer": "BH_9.0_SIDE=1_BHX=317.00_BHDP=25.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 25,
+               "y": 313,
+               "z": 0
+            },
+            {
+               "x": 0,
+               "y": 313,
+               "z": 0
+            }
+         ],
+         "handle": "0034",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 0,
+               "y": 97,
+               "z": 0
+            },
+            {
+               "x": 25,
+               "y": 97,
+               "z": 0
+            }
+         ],
+         "handle": "0035",
+         "layer": "BH_9.0_SIDE=1_BHX=93.00_BHDP=25.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 25,
+               "y": 89,
+               "z": 0
+            },
+            {
+               "x": 0,
+               "y": 89,
+               "z": 0
+            }
+         ],
+         "handle": "0036",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 0,
+               "y": 65,
+               "z": 0
+            },
+            {
+               "x": 34,
+               "y": 65,
+               "z": 0
+            }
+         ],
+         "handle": "0037",
+         "layer": "BH_9.0_SIDE=1_BHX=61.00_BHDP=34.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 34,
+               "y": 57,
+               "z": 0
+            },
+            {
+               "x": 0,
+               "y": 57,
+               "z": 0
+            }
+         ],
+         "handle": "0038",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 0,
+               "y": 353,
+               "z": 0
+            },
+            {
+               "x": 34,
+               "y": 353,
+               "z": 0
+            }
+         ],
+         "handle": "0039",
+         "layer": "BH_9.0_SIDE=1_BHX=349.00_BHDP=34.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 34,
+               "y": 345,
+               "z": 0
+            },
+            {
+               "x": 0,
+               "y": 345,
+               "z": 0
+            }
+         ],
+         "handle": "003A",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 689,
+               "y": 321,
+               "z": 0
+            },
+            {
+               "x": 714,
+               "y": 321,
+               "z": 0
+            }
+         ],
+         "handle": "003B",
+         "layer": "BH_9.0_SIDE=3_BHX=317.00_BHDP=25.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 714,
+               "y": 313,
+               "z": 0
+            },
+            {
+               "x": 689,
+               "y": 313,
+               "z": 0
+            }
+         ],
+         "handle": "003C",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 689,
+               "y": 97,
+               "z": 0
+            },
+            {
+               "x": 714,
+               "y": 97,
+               "z": 0
+            }
+         ],
+         "handle": "003D",
+         "layer": "BH_9.0_SIDE=3_BHX=93.00_BHDP=25.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 714,
+               "y": 89,
+               "z": 0
+            },
+            {
+               "x": 689,
+               "y": 89,
+               "z": 0
+            }
+         ],
+         "handle": "003E",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 680,
+               "y": 65,
+               "z": 0
+            },
+            {
+               "x": 714,
+               "y": 65,
+               "z": 0
+            }
+         ],
+         "handle": "003F",
+         "layer": "BH_9.0_SIDE=3_BHX=61.00_BHDP=34.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 714,
+               "y": 57,
+               "z": 0
+            },
+            {
+               "x": 680,
+               "y": 57,
+               "z": 0
+            }
+         ],
+         "handle": "0040",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 680,
+               "y": 353,
+               "z": 0
+            },
+            {
+               "x": 714,
+               "y": 353,
+               "z": 0
+            }
+         ],
+         "handle": "0041",
+         "layer": "BH_9.0_SIDE=3_BHX=349.00_BHDP=34.00_BHDIA=8.00"
+      },
+      {
+         "type": "LINE",
+         "vertices": [
+            {
+               "x": 714,
+               "y": 345,
+               "z": 0
+            },
+            {
+               "x": 680,
+               "y": 345,
+               "z": 0
+            }
+         ],
+         "handle": "0042",
+         "layer": "BH_9.0"
+      },
+      {
+         "type": "POLYLINE",
+         "vertices": [
+            {
+               "type": "VERTEX",
+               "handle": "0044",
+               "layer": "Z_18.0",
+               "x": 0,
+               "y": 0
+            },
+            {
+               "type": "VERTEX",
+               "handle": "0045",
+               "layer": "Z_18.0",
+               "x": 0,
+               "y": 410
+            },
+            {
+               "type": "VERTEX",
+               "handle": "0046",
+               "layer": "Z_18.0",
+               "x": 714,
+               "y": 410
+            },
+            {
+               "type": "VERTEX",
+               "handle": "0047",
+               "layer": "Z_18.0",
+               "x": 714,
+               "y": 0
+            }
+         ],
+         "handle": "0043",
+         "layer": "Z_18.0",
+         "thickness": 0,
+         "shape": true,
+         "includesCurveFitVertices": false,
+         "includesSplineFitVertices": false,
+         "is3dPolyline": false,
+         "is3dPolygonMesh": false,
+         "is3dPolygonMeshClosed": false,
+         "isPolyfaceMesh": false,
+         "hasContinuousLinetypePattern": false
+      }
+   ]
+}

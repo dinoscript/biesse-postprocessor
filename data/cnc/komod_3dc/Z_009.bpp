@@ -1,0 +1,112 @@
+[HEADER]
+TYPE=BPP
+VER=120
+
+[DESCRIPTION]
+|
+
+[VARIABLES]
+PAN=LPX|714||4|
+PAN=LPY|100||4|
+PAN=LPZ|18||4|
+PAN=ORLST|"1"||0|
+PAN=SIMMETRY|1||0|
+PAN=TLCHK|0||0|
+PAN=TOOLING|""||0|
+PAN=CUSTSTR|""||0|
+PAN=FCN|1.000000||0|
+PAN=XCUT|0||4|
+PAN=YCUT|0||4|
+PAN=JIGTH|0||4|
+PAN=CKOP|0||0|
+PAN=UNIQUE|0||0|
+PAN=MATERIAL|"wood"||0|
+PAN=PUTLST|""||0|
+PAN=OPPWKRS|0||0|
+PAN=UNICLAMP|0||0|
+PAN=CHKCOLL|0||0|
+PAN=WTPIANI|0||0|
+PAN=COLLTOOL|0||0|
+
+[PROGRAM]
+
+@ BV, "TDCODE215001400", "", 10000000 : 0, "2", 680, 37, 0, 14, 15, 0, -1, 0, 0, 0, 0, 0, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, -1, "P1007", 0
+@ BV, "TDCODE215001400", "", 10000001 : 0, "2", 34, 37, 0, 14, 15, 0, -1, 0, 0, 0, 0, 0, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, -1, "P1007", 0
+@ BV, "TDCODE215001400", "", 10000002 : 0, "2", 181, 66, 0, 14, 15, 0, -1, 0, 0, 0, 0, 0, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, -1, "P1007", 0
+@ BV, "TDCODE215001400", "", 10000003 : 0, "2", 533, 66, 0, 14, 15, 0, -1, 0, 0, 0, 0, 0, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, -1, "P1007", 0
+@ BH, "TDCODE18002500", "", 10000004 : 4, "4", 501, 0, 0, 25, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+@ BH, "TDCODE18002500", "", 10000005 : 4, "4", 213, 0, 0, 25, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+@ BH, "TDCODE18003400", "", 10000006 : 4, "4", 181, 0, 0, 34, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+@ BH, "TDCODE18003400", "", 10000007 : 4, "4", 533, 0, 0, 34, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+@ BH, "TDCODE18002500", "", 10000008 : 1, "4", 63, 0, 0, 25, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+@ BH, "TDCODE18003400", "", 10000009 : 1, "4", 37, 0, 0, 34, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+@ BH, "TDCODE18002500", "", 10000010 : 3, "1", 63, 0, 0, 25, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+@ BH, "TDCODE18003400", "", 10000011 : 3, "1", 37, 0, 0, 34, 8, 0, -1, 32, 32, 50, 0, 45, 0, "", 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, -1, "P1001", 0
+
+[VBSCRIPT]
+Option Explicit
+Dim mm: mm = 1.000000000000000000
+Dim inc: inc = 25.399999999999999000
+Dim SIDE: SIDE = -1
+Dim LPX: LPX = 714
+Dim LPY: LPY = 100
+Dim LPZ: LPZ = 18
+Dim ORLST: ORLST = "1"
+Dim SIMMETRY: SIMMETRY = 1
+Dim TLCHK: TLCHK = 0
+Dim TOOLING: TOOLING = ""
+Dim CUSTSTR: CUSTSTR = ""
+Dim FCN: FCN = 1.000000
+Dim XCUT: XCUT = 0
+Dim YCUT: YCUT = 0
+Dim JIGTH: JIGTH = 0
+Dim CKOP: CKOP = 0
+Dim UNIQUE: UNIQUE = 0
+Dim MATERIAL: MATERIAL = "wood"
+Dim PUTLST: PUTLST = ""
+Dim OPPWKRS: OPPWKRS = 0
+Dim UNICLAMP: UNICLAMP = 0
+Dim CHKCOLL: CHKCOLL = 0
+Dim WTPIANI: WTPIANI = 0
+Dim COLLTOOL: COLLTOOL = 0
+Sub Main()
+Call ProgBuilder.SetPanel(LPX*FCN, LPY*FCN, LPZ*FCN, ORLST, SIMMETRY, TLCHK, TOOLING, CUSTSTR, FCN, XCUT*FCN, YCUT*FCN, JIGTH*FCN, CKOP, UNIQUE, MATERIAL, PUTLST, OPPWKRS, UNICLAMP, CHKCOLL, WTPIANI, COLLTOOL)
+SIDE = 0: Call ProgBuilder.AddBoring(0, 10000000, "TDCODE215001400"    , 0, "2", (680)*FCN, (37)*FCN, (0)*FCN, (14)*FCN, (15)*FCN, NO, rpNO, (0)*FCN, (0)*FCN, (0)*FCN, 0, 0, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, NO, NO, 0, NO, 0, -1, "P1007", (0)*FCN): SIDE = -1
+SIDE = 0: Call ProgBuilder.AddBoring(0, 10000001, "TDCODE215001400"    , 0, "2", (34)*FCN, (37)*FCN, (0)*FCN, (14)*FCN, (15)*FCN, NO, rpNO, (0)*FCN, (0)*FCN, (0)*FCN, 0, 0, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, NO, NO, 0, NO, 0, -1, "P1007", (0)*FCN): SIDE = -1
+SIDE = 0: Call ProgBuilder.AddBoring(0, 10000002, "TDCODE215001400"    , 0, "2", (181)*FCN, (66)*FCN, (0)*FCN, (14)*FCN, (15)*FCN, NO, rpNO, (0)*FCN, (0)*FCN, (0)*FCN, 0, 0, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, NO, NO, 0, NO, 0, -1, "P1007", (0)*FCN): SIDE = -1
+SIDE = 0: Call ProgBuilder.AddBoring(0, 10000003, "TDCODE215001400"    , 0, "2", (533)*FCN, (66)*FCN, (0)*FCN, (14)*FCN, (15)*FCN, NO, rpNO, (0)*FCN, (0)*FCN, (0)*FCN, 0, 0, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, NO, NO, 0, NO, 0, -1, "P1007", (0)*FCN): SIDE = -1
+SIDE = 4: Call ProgBuilder.AddBoring(0, 10000004, "TDCODE18002500"    , 4, "4", (501)*FCN, (0)*FCN, (0)*FCN, (25)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+SIDE = 4: Call ProgBuilder.AddBoring(0, 10000005, "TDCODE18002500"    , 4, "4", (213)*FCN, (0)*FCN, (0)*FCN, (25)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+SIDE = 4: Call ProgBuilder.AddBoring(0, 10000006, "TDCODE18003400"    , 4, "4", (181)*FCN, (0)*FCN, (0)*FCN, (34)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+SIDE = 4: Call ProgBuilder.AddBoring(0, 10000007, "TDCODE18003400"    , 4, "4", (533)*FCN, (0)*FCN, (0)*FCN, (34)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+SIDE = 1: Call ProgBuilder.AddBoring(0, 10000008, "TDCODE18002500"    , 1, "4", (63)*FCN, (0)*FCN, (0)*FCN, (25)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+SIDE = 1: Call ProgBuilder.AddBoring(0, 10000009, "TDCODE18003400"    , 1, "4", (37)*FCN, (0)*FCN, (0)*FCN, (34)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+SIDE = 3: Call ProgBuilder.AddBoring(0, 10000010, "TDCODE18002500"    , 3, "1", (63)*FCN, (0)*FCN, (0)*FCN, (25)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+SIDE = 3: Call ProgBuilder.AddBoring(0, 10000011, "TDCODE18003400"    , 3, "1", (37)*FCN, (0)*FCN, (0)*FCN, (34)*FCN, (8)*FCN, NO, rpNO, (32)*FCN, (32)*FCN, (50)*FCN, 0, 45, 0, "", YES, 0, 0, NO, azrNO, (0)*FCN, (0)*FCN, 0, (0)*FCN, YES, YES, NO, 0, NO, 0, -1, "P1001", (0)*FCN): SIDE = -1
+End Sub
+
+[TDCODES]
+VER=1
+CONVF=1.000000
+BUGFLAGS=3
+(MST)<LN=1,NJ=TDCODE215001400,TYW=1,NT=1,>
+(GEN)<WT=1,DL=1,>
+(TOO)<DI=15,SP=15,CL=0,COD=----------,RO=-1,TY=3,ACT=0,NCT=,DCT=5.000000,TCT=0.000000,DICT=20.000000,DFCT=80.000000,PCT=60.000000,>
+(IO)<AI=0.000,AO=0.000,DA=0.000,DT=0.000,DD=0.000,IFD=0.00,OFD=0.00,IN=0,OUT=0,PR=0,ETCI=0,ITI=0,TLI=0.00,THI=0.00,ETCO=0,ITO=0,TLO=0.00,THO=0.00,PDI=0.00,PDO=0.00,>
+(WRK)<OP=1,CO=0,HH=0.000,DR=0,PV=0,PT=0,TC=-1,DP=14,SM=0.000,TT=0,RC=0,BD=0,SW=0,IC="",IM="",IA="",PC=0,BL=0,PU=0,EA=0,EEA=0,SP=0,AP=0,>
+(SPD)<AF=0.00,CF=0.000,DS=0.00,FE=0.00,RT=0.00,OF=0.00,>
+(MOR)<PE=0.000000,TG=0.000000,TL=0.000000,WH=0.000000,>
+(MST)<LN=1,NJ=TDCODE18002500,TYW=1,NT=1,>
+(GEN)<WT=1,DL=1,>
+(TOO)<DI=8,SP=8,CL=0,COD=----------,RO=-1,TY=0,ACT=0,NCT=,DCT=5.000000,TCT=0.000000,DICT=20.000000,DFCT=80.000000,PCT=60.000000,>
+(IO)<AI=0.000,AO=0.000,DA=0.000,DT=0.000,DD=0.000,IFD=0.00,OFD=0.00,IN=0,OUT=0,PR=0,ETCI=0,ITI=0,TLI=0.00,THI=0.00,ETCO=0,ITO=0,TLO=0.00,THO=0.00,PDI=0.00,PDO=0.00,>
+(WRK)<OP=1,CO=0,HH=0.000,DR=0,PV=0,PT=0,TC=-1,DP=25,SM=0.000,TT=0,RC=0,BD=0,SW=0,IC="",IM="",IA="",PC=0,BL=0,PU=0,EA=0,EEA=0,SP=0,AP=0,>
+(SPD)<AF=0.00,CF=0.000,DS=0.00,FE=0.00,RT=0.00,OF=0.00,>
+(MOR)<PE=0.000000,TG=0.000000,TL=0.000000,WH=0.000000,>
+(MST)<LN=1,NJ=TDCODE18003400,TYW=1,NT=1,>
+(GEN)<WT=1,DL=1,>
+(TOO)<DI=8,SP=8,CL=0,COD=----------,RO=-1,TY=0,ACT=0,NCT=,DCT=5.000000,TCT=0.000000,DICT=20.000000,DFCT=80.000000,PCT=60.000000,>
+(IO)<AI=0.000,AO=0.000,DA=0.000,DT=0.000,DD=0.000,IFD=0.00,OFD=0.00,IN=0,OUT=0,PR=0,ETCI=0,ITI=0,TLI=0.00,THI=0.00,ETCO=0,ITO=0,TLO=0.00,THO=0.00,PDI=0.00,PDO=0.00,>
+(WRK)<OP=1,CO=0,HH=0.000,DR=0,PV=0,PT=0,TC=-1,DP=34,SM=0.000,TT=0,RC=0,BD=0,SW=0,IC="",IM="",IA="",PC=0,BL=0,PU=0,EA=0,EEA=0,SP=0,AP=0,>
+(SPD)<AF=0.00,CF=0.000,DS=0.00,FE=0.00,RT=0.00,OF=0.00,>
+(MOR)<PE=0.000000,TG=0.000000,TL=0.000000,WH=0.000000,>

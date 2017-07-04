@@ -1,0 +1,14 @@
+{
+  "name": "biesse-postprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dinoscript",
+  "license": "ISC",
+  "devDependencies": {
+    "dxf-parser": "^0.4.6"
+  }
+}

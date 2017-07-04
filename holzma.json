@@ -1,0 +1,119 @@
+[
+   {
+      "comment": "",
+      "shifr": "1.01",
+      "w": "750",
+      "h": "435",
+      "quantity": "1",
+      "material": "168",
+      "rotate": "1",
+      "rb": "2X22",
+      "bb": "2X22",
+      "lb": "2X22",
+      "tb": "0.45X22"
+   },
+   {
+      "comment": "(smotri cherteg)",
+      "shifr": "1.06",
+      "w": "1192",
+      "h": "410",
+      "quantity": "1",
+      "material": "168",
+      "rotate": "1",
+      "tb": "0.45X22(smotri cherteg)",
+      "rb": "0.45X22(smotri cherteg)"
+   },
+   {
+      "comment": "(smotri cherteg)",
+      "shifr": "1.07",
+      "w": "1192",
+      "h": "410",
+      "quantity": "1",
+      "material": "168",
+      "rotate": "1",
+      "tb": "0.45X22(smotri cherteg)",
+      "rb": "0.45X22(smotri cherteg)"
+   },
+   {
+      "comment": "",
+      "shifr": "1.08",
+      "w": "714",
+      "h": "410",
+      "quantity": "1",
+      "material": "168",
+      "rotate": "1",
+      "bb": "0.45X22"
+   },
+   {
+      "comment": "",
+      "shifr": "1.09",
+      "w": "714",
+      "h": "100",
+      "quantity": "1",
+      "material": "168",
+      "rotate": "1",
+      "bb": "0.45X22"
+   },
+   {
+      "comment": "",
+      "shifr": "1.11",
+      "w": "714",
+      "h": "100",
+      "quantity": "1",
+      "material": "168",
+      "rotate": "1",
+      "bb": "0.45X22"
+   },
+   {
+      "comment": "",
+      "shifr": "1.02",
+      "w": "1088",
+      "h": "746",
+      "quantity": "1",
+      "material": "42",
+      "rotate": "1"
+   },
+   {
+      "comment": "",
+      "shifr": "1.10",
+      "w": "742",
+      "h": "174",
+      "quantity": "6",
+      "material": "168",
+      "rotate": "1",
+      "tb": "2X22",
+      "rb": "2X22",
+      "bb": "2X22",
+      "lb": "2X22"
+   },
+   {
+      "comment": "",
+      "shifr": "1.12",
+      "w": "400",
+      "h": "100",
+      "quantity": "12",
+      "material": "194",
+      "rotate": "1",
+      "tb": "0.45X22_W980",
+      "rb": "0.45X22_W980"
+   },
+   {
+      "comment": "",
+      "shifr": "1.13",
+      "w": "657",
+      "h": "100",
+      "quantity": "12",
+      "material": "194",
+      "rotate": "0",
+      "tb": "0.45X22_W980"
+   },
+   {
+      "comment": "",
+      "shifr": "1.14",
+      "w": "687",
+      "h": "398",
+      "quantity": "6",
+      "material": "42",
+      "rotate": "0"
+   }
+]
